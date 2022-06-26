@@ -47,7 +47,7 @@ const userloginAction = (logindata)=>{
             });
 
             const config = { headers: { "Content-Type": "application/json" } };
-            const { data } = await axios.post("/api/users/login",logindata,config);
+            const { data } = await axios.post("http://localhost:5000/api/users/login",logindata,config);
 
             localStorage.setItem("userInfo", JSON.stringify(data));
 
