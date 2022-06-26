@@ -1,6 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
+dotenv.config();
 
 
 const dbCoonect = require("./config/dbConnect");
@@ -12,7 +13,6 @@ const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 const path = require("path");
 const app = express();
-dotenv.config()
 
 
 app.use(cors());
