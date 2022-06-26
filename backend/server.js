@@ -28,7 +28,7 @@ app.use(errorHandler);
 
 app.get("/", (req, res)=>{
     console.log("Hallo to new project")
-    res.send("wolcame")
+    res.json("wolcame to server")
 })
 
 /*
