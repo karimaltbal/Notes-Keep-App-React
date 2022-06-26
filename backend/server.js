@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const cors = require("cors");
 dotenv.config();
+const cors = require("cors");
 
 
 const dbCoonect = require("./config/dbConnect");
@@ -20,6 +20,8 @@ app.use("/api/users", userRouter);
 app.use("/api/notes", noteRouter);
 
 
+
+
 app.use(notFound);
 app.use(errorHandler);
 
@@ -28,9 +30,8 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 5000
 
 app.get("/", (req, res) => {
-  res.json("wolcame to server");
+  res.json("server start");
 });
-
 
 app.listen(5000, ()=>{
     console.log(`wolcame to my server${PORT}`);
