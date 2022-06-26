@@ -25,12 +25,6 @@ app.use(errorHandler);
 
 
 
-
-app.get("/", (req, res)=>{
-    console.log("Hallo to new project")
-    res.json("wolcame to server")
-})
-
 /*
 app.get("/api/notes", (req, res) => {
     res.json(notes);
@@ -43,6 +37,11 @@ app.get("/api/notes/:id", (req, res) => {
 */
 
 const PORT = process.env.PORT || 5000
+
+app.get("/", (req, res) => {
+  res.json("wolcame to server");
+});
+
 
 app.listen(5000, ()=>{
     console.log(`wolcame to my server${PORT}`);
