@@ -6,7 +6,7 @@
 <td>
   It is a simple application that records the notes that you like to take, by: 
   <ul>
-    <ol>Create a personal account.</ol>
+    <li>Create a personal account.</li>
     <ol>Sign in with emails.</ol>
     <ol>Add your own note.</ol>
   </ul>
