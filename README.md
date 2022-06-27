@@ -5,11 +5,11 @@
 <tr>
 <td>
   It is a simple application that records the notes that you like to take, by: 
-  <ul>
+  <ol>
     <li>Create a personal account.</li>
-    <lo>Sign in with emails.</lo>
-    <ol>Add your own note.</ol>
-  </ul>
+    <li>Sign in with emails.</li>
+    <li>Add your own note.</li>
+  </ol>
 </td>
 </tr>
 </table>
