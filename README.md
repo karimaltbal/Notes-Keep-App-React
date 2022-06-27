@@ -5,13 +5,18 @@
 <tr>
 <td>
   It is a simple application that records the notes that you like to take, by: 
+  <ul>
+    <ol>Create a personal account.</ol>
+    <ol>Sign in with emails.</ol>
+    <ol>Add your own note.</ol>
+  </ul>
 </td>
 </tr>
 </table>
 
 It is a simple application that records the notes that you like to take, by: 
 1: Create a personal account. 
-2: Sign in with emails 
+2: Sign in with emails. 
 3: Add your own note.  
 The application offers many services to the user, including: 
 1: Add your notes. 
