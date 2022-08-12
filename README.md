@@ -67,5 +67,5 @@ Here is a working live demo :  https://app.netlify.com/sites/note-record
 - [Axios lib](https://www.api.org/)
 - [Node.JS](https://nodejs.org/en/)
 - [Express.JS](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
+- [MongoDB](https://www.mongodb.com/))
 
